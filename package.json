@@ -1,0 +1,26 @@
+{
+  "name": "ts-result",
+  "version": "0.0.1",
+  "description": "A package that brings Result Type that can be used in TypeScript projects to help with error management",
+  "keywords": [
+    "typescript",
+    "handling",
+    "errors",
+    "management",
+    "type",
+    "result"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "--"
+  },
+  "license": "MIT",
+  "author": "Leon Adarcewicz",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
