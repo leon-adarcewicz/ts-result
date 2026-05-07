@@ -10,17 +10,23 @@
     "type",
     "result"
   ],
+  "homepage": "https://github.com/leon-adarcewicz/ts-result",
+  "bugs": {
+    "url": "https://github.com/leon-adarcewicz/ts-result/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "--"
+    "url": "git+https://github.com/leon-adarcewicz/ts-result.git"
   },
   "license": "MIT",
   "author": "Leon Adarcewicz",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "build": "tsc",
+    "ci": "npm run build"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
 }
