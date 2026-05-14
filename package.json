@@ -1,35 +1,35 @@
 {
-  "name": "ts-result",
-  "version": "0.0.1",
-  "description": "A package that brings Result Type that can be used in TypeScript projects to help with error management",
-  "keywords": [
-    "typescript",
-    "handling",
-    "errors",
-    "management",
-    "type",
-    "result"
-  ],
-  "homepage": "https://github.com/leon-adarcewicz/ts-result",
-  "bugs": {
-    "url": "https://github.com/leon-adarcewicz/ts-result/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/leon-adarcewicz/ts-result.git"
-  },
-  "license": "MIT",
-  "author": "Leon Adarcewicz",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc",
-    "check-format": "prettier --check .",
-    "ci": "npm run build && npm run check-format",
-    "format": "prettier --write ."
-  },
-  "devDependencies": {
-    "prettier": "^3.8.3",
-    "typescript": "^6.0.3"
-  }
+    "name": "ts-result",
+    "version": "0.0.1",
+    "description": "A package that brings Result Type that can be used in TypeScript projects to help with error management",
+    "keywords": [
+        "typescript",
+        "handling",
+        "errors",
+        "management",
+        "type",
+        "result"
+    ],
+    "homepage": "https://github.com/leon-adarcewicz/ts-result",
+    "bugs": {
+        "url": "https://github.com/leon-adarcewicz/ts-result/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leon-adarcewicz/ts-result.git"
+    },
+    "license": "MIT",
+    "author": "Leon Adarcewicz",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "ci": "npm run build && npm run check-format",
+        "check-format": "prettier --check .",
+        "format": "prettier --write ."
+    },
+    "devDependencies": {
+        "prettier": "^3.8.3",
+        "typescript": "^6.0.3"
+    }
 }
