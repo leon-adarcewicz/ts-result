@@ -1,5 +1,0 @@
----
-"ts-result": patch
----
-
-initial
