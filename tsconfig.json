@@ -22,6 +22,16 @@
         "declaration": true,
         /* AND if you're building for a library in a monorepo: */
         "declarationMap": true,
-        "lib": ["es2024"]
-    }
+        "lib": [
+            "es2024"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "tests",
+        "src/tests",
+        "src/**/*.test.ts"
+    ]
 }
