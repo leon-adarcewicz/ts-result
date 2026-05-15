@@ -1,5 +1,5 @@
 {
-    "name": "ts-result",
+    "name": "@ucios/ts-result",
     "version": "0.1.2",
     "description": "A package that brings Result Type that can be used in TypeScript projects to help with error management",
     "keywords": [
